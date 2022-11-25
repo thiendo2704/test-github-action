@@ -1,7 +1,8 @@
-const testFunc = (a: any, b: any) => {
-    console.log(a, b);
-}
+const testFunc = (a: number, b: string) => {
+  console.log(a, b);
+};
 
-console.log(testFunc(1, 'a')); 
+console.log(testFunc(1, 'a'));
+console.log('hello');
 
 export {};
